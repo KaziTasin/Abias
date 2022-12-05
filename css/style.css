@@ -1,0 +1,1378 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+body {
+  overflow-x: hidden;
+}
+.main {
+  display: flex;
+}
+#loader-wrapper {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+/* ==============================================
+nav start
+=============================================*/
+.navbar {
+  padding-top: 0 !important;
+}
+nav {
+  transition: 0.4s;
+}
+nav .menu-bar {
+  background: #0e0a2d;
+  margin-left: 250px;
+  border-bottom-left-radius: 50px;
+  position: absolute;
+  top: 0;
+  right: -260px;
+  width: 80%;
+}
+.fix {
+  position: fixed;
+  width: 100%;
+  background: #0e0a2d !important;
+  padding: 15px 0;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  border-bottom-left-radius: 0px !important;
+  transition: 0.4s;
+}
+.fix .menu-bar {
+  background: none !important;
+}
+.fix .sada {
+  display: block;
+}
+.fix .kalo {
+  display: none;
+}
+nav .sada {
+  display: none;
+}
+nav img {
+  margin-top: 25px;
+}
+nav .bar {
+  color: #000 !important;
+}
+nav ul {
+  margin-left: 70px;
+}
+
+nav ul li {
+  padding: 20px 15px;
+}
+
+nav ul li a {
+  display: inline-block;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff !important;
+  transition: 0.4s;
+}
+
+nav ul .active a {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* ====================================
+nav part end
+========================================*/
+
+/* ======================================
+banner part start
+===========================================*/
+#banner {
+  margin-top: 200px;
+}
+
+#banner h5 {
+  color: #5f24ef;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#banner h2 {
+  color: #1c0e3e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin: 25px 0;
+}
+
+#banner h2 span {
+  color: #5f24ef;
+}
+
+#banner h3 {
+  color: #1c0e3e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#banner h4 {
+  color: #1c0e3e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+#banner .cv {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #1a2cd7;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+}
+
+#banner .cv::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background: #172079;
+  clip-path: polygon(0 0, 92% 0, 73% 100%, 0% 100%);
+  z-index: -1;
+  transition: 0.2s;
+}
+
+#banner .cv:hover::after {
+  width: 120%;
+}
+
+#banner .cv::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  background: #323c9b;
+  clip-path: polygon(0 0, 92% 0, 73% 100%, 0% 100%);
+  z-index: -1;
+  transition: 0.2s;
+}
+
+#banner .cv:hover::before {
+  width: 120%;
+}
+
+#banner .cv i {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+#banner .hire {
+  display: inline-block;
+  padding: 10px 40px;
+  background: rgb(98, 96, 96);
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-bottom-right-radius: 24px;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+  margin-left: 30px;
+}
+
+#banner .hire::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 85%;
+  height: 100%;
+  background: #100822;
+  clip-path: polygon(34% 0, 100% 0, 100% 99%, 6% 100%);
+  z-index: -1;
+  transition: 0.4s;
+}
+
+#banner .hire:hover::after {
+  width: 150%;
+}
+#banner .hire::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 95%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  clip-path: polygon(34% 0, 100% 0, 100% 99%, 6% 100%);
+  z-index: -1;
+  transition: 0.4s;
+}
+
+#banner .hire:hover::before {
+  width: 150%;
+}
+
+#banner .hire i {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+#banner .shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#banner .man {
+  position: absolute;
+  top: 54px;
+  right: 24px;
+}
+
+#banner .shape2 {
+  position: absolute;
+  top: 300px;
+  left: 0;
+}
+
+/* ======================================
+banner part end
+===========================================*/
+
+/* =========================================
+counter part start
+=================================================*/
+#counter {
+  margin-top: 300px;
+  margin-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+
+#counter::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+  z-index: -1;
+}
+
+#counter .counter-main {
+  padding: 40px 0;
+  background: linear-gradient(45deg, #08bbf6 0%, #6122ef 63%);
+  border-radius: 100px;
+}
+#counter .counter-item {
+  text-align: center;
+}
+#counter .counter-item i {
+  display: block;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+#counter .counter-main h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+#counter .counter-main h4 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  display: inline-block;
+  border-bottom: 1px solid #ddd;
+}
+
+/* =========================================
+counter part end
+=================================================*/
+
+/* =========================================
+about part start
+=================================================*/
+#about {
+  position: relative;
+}
+
+#about h1 {
+  margin-top: 200px;
+  color: rgba(86, 74, 115, 0.103);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#about h3 {
+  color: #1a115e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  top: 244px;
+  left: 672px;
+}
+
+#about h4 {
+  color: #1a115e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+#about .icon {
+  margin: 30px 0;
+}
+
+#about .icon i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: #1a2cd7;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 7px;
+}
+#about .img1 {
+  position: absolute;
+  top: -552px !important;
+  left: 0 !important;
+}
+#about .img2 {
+  position: absolute;
+  top: -205px !important;
+  left: 52px !important;
+}
+#about .img3 {
+  position: absolute;
+  top: -495px !important;
+  left: -320px !important;
+}
+#about .img4 {
+  position: absolute;
+  top: -205px !important;
+  left: 52px !important;
+}
+#about .trangle1 {
+  width: 20px;
+  height: 20px;
+  background: rgb(4, 193, 240);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: -375px !important;
+  left: 0px !important;
+}
+
+#about .trangle2 {
+  width: 20px;
+  height: 20px;
+  background: rgb(240, 4, 220);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: -540px !important;
+  left: -30px !important;
+}
+
+#about .trangle3 {
+  width: 20px;
+  height: 20px;
+  background: rgb(41, 3, 209);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: 50px !important;
+  left: 10px !important;
+}
+
+#about .trangle4 {
+  width: 30px;
+  height: 30px;
+  background: rgb(4, 193, 240);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: -510px !important;
+  left: 60px !important;
+}
+
+#about .trangle5 {
+  width: 20px;
+  height: 20px;
+  background: rgb(200, 235, 5);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: 70px !important;
+  left: 350px !important;
+}
+#about .trangle6 {
+  width: 20px;
+  height: 20px;
+  background: rgb(185, 144, 8);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: -90px !important;
+  left: -115px !important;
+}
+#about .trangle7 {
+  width: 20px;
+  height: 20px;
+  background: rgb(201, 18, 125);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: 20px !important;
+  left: 350px !important;
+}
+#about .trangle8 {
+  width: 20px;
+  height: 20px;
+  background: rgb(26, 155, 58);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: -233px !important;
+  left: 142px !important;
+}
+#about .trangle9 {
+  width: 20px;
+  height: 20px;
+  background: rgb(23, 162, 172);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: absolute;
+  top: -20px !important;
+  left: -250px !important;
+}
+
+#about .cilcle1 {
+  width: 30px;
+  height: 30px;
+  background: rgb(240, 4, 4);
+  border-radius: 50%;
+  position: absolute;
+  top: -310px !important;
+  left: 310px !important;
+}
+
+#about .cilcle2 {
+  width: 20px;
+  height: 20px;
+  background: rgb(240, 4, 169);
+  border-radius: 50%;
+  position: absolute;
+  top: -310px !important;
+  left: -500px !important;
+}
+
+#about .cilcle3 {
+  width: 20px;
+  height: 20px;
+  background: rgb(4, 183, 196);
+  border-radius: 50%;
+  position: absolute;
+  top: -110px !important;
+  left: 30px !important;
+}
+
+#about .cilcle4 {
+  width: 30px;
+  height: 30px;
+  background: rgb(211, 208, 13);
+  border-radius: 50%;
+  position: absolute;
+  top: 10px !important;
+  right: 30px !important;
+}
+#about .cilcle5 {
+  width: 30px;
+  height: 30px;
+  background: rgb(211, 208, 13);
+  border-radius: 50%;
+  position: absolute;
+  top: -406px !important;
+  left: -138px !important;
+}
+
+/* =========================================
+about part end
+=================================================*/
+
+/* ================================================
+service part start
+=================================================*/
+#service {
+  text-align: center;
+  position: relative;
+  padding: 70px 0;
+  padding-top: 100px;
+  background: #edf4f9;
+}
+#service .pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#service .ser-head {
+  position: relative;
+  text-align: center;
+}
+#service .ser-head h1 {
+  color: rgba(86, 74, 115, 0.103);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#service .ser-head h3 {
+  color: #1a115e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  top: 40px;
+  left: 42%;
+}
+
+#service .ser-item {
+  padding: 10px 0;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+#service .ser-item::after {
+  position: absolute;
+  content: "";
+  bottom: -50px;
+  right: -49px;
+  width: 100px;
+  height: 100px;
+  background: #1a115e;
+  border: 10px solid rgba(160, 132, 132, 0.5);
+  transform: rotate(45deg);
+  transition: 0.4s;
+}
+#service .ser-item:hover::after {
+  bottom: -92px;
+  right: -31px;
+}
+
+#service .ser-item i {
+  font-size: 40px;
+  color: #1a115e;
+  margin: 10px 0;
+  transition: 0.4s;
+}
+
+#service .ser-item h4 {
+  color: #1a115e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  transition: 0.4s;
+  margin: 0;
+}
+
+#service .ser-item p {
+  color: #1a115e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+#service .ser-item a {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #1a115e;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  transition: 0.4s;
+}
+#service .ser-item:hover i {
+  color: #fff;
+}
+#service .ser-item:hover h4 {
+  color: #fff;
+}
+#service .ser-item:hover p {
+  color: #fff;
+}
+#service .ser-item:hover a {
+  color: #fff;
+}
+#service .ser-item:hover {
+  background-image: linear-gradient(to bottom, #08bbf6, #6122ef);
+}
+/* ================================================
+service part end
+=================================================*/
+
+/* =============================================
+service2 par start
+=================================================*/
+#service2 {
+  text-align: center;
+  background: url(../images/portfolio_bg.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 4;
+}
+#service2 .port-flex {
+  display: flex;
+  position: relative;
+}
+#service2 .overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.692);
+  padding: 100px 0;
+}
+#service2 .port-head {
+  position: relative;
+}
+#service2 h1 {
+  color: #474552;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#service2 h3 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  top: 35px;
+  left: 450px;
+}
+#service2 .port-main {
+  width: 900px;
+}
+#service2 .port-big {
+  width: 800px;
+  height: 490px;
+  overflow: hidden;
+  border-radius: 20px;
+  border-bottom-right-radius: 90px;
+  position: relative;
+  z-index: 99;
+}
+#service2 .port-big .thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+  transform: scale(1);
+}
+#service2 .port-big:hover .thumb {
+  transform: scale(1.05);
+}
+#service2 .port-big .text {
+  position: absolute;
+  bottom: 30px;
+  text-align: left;
+  padding-left: 30px;
+  transition: 0.4s;
+}
+#service2 .port-big .text h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  color: #0e0a2d;
+  font-weight: 600;
+}
+#service2 .port-big .text p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #1c0e3e;
+  font-weight: 400;
+}
+#service2 .slick-slider {
+  z-index: 99;
+}
+#service2 .port-flex .little {
+  width: 300px;
+  height: 220px;
+  background: #5f24ef;
+  text-align: right;
+  padding: 20px 25px;
+  position: absolute;
+  padding-left: 100px;
+  z-index: 1;
+  bottom: 0;
+  right: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+#service2 .port-flex .little i {
+  color: #fff;
+  font-size: 18px;
+}
+#service2 .port-flex .little h5 {
+  display: inline-block;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+#service2 .port-flex .little a {
+  display: inline-block;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+#service2 .port-flex .little .detail {
+  padding: 7px 15px;
+  background: #6f3af1;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+#service2 .service-main {
+  margin-top: 80px;
+}
+#service2 .service-item {
+  position: relative;
+}
+#service2 .service-item a {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: inline-block;
+  padding: 10px;
+  background: #5f24ef;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+#service2 .service-item:hover a {
+  background: transparent;
+  text-decoration: underline;
+}
+#service2 .slick-center a {
+  background: no-repeat;
+  text-decoration: underline;
+}
+#service2 .service-item .ser-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background: linear-gradient(to top, #6122ef, transparent);
+  transition: 0.4s;
+}
+#service2 .service-item:hover .ser-overlay {
+  height: 100%;
+}
+#service2 .slick-center .ser-overlay {
+  height: 100%;
+}
+#service2 .service-item1 {
+  height: 200px;
+  margin: 0 20px;
+  background: url(../images/port_thumb.jpg) no-repeat center;
+  background-size: cover;
+}
+#service2 .service-item2 {
+  height: 200px;
+  margin: 0 20px;
+  background: url(../images/port_thumb_2.jpg) no-repeat center;
+  background-size: cover;
+}
+#service2 .service-item3 {
+  height: 200px;
+  margin: 0 20px;
+  background: url(../images/port_thumb_3.jpg) no-repeat center;
+  background-size: cover;
+}
+#service2 .service-item4 {
+  height: 200px;
+  margin: 0 20px;
+  background: url(../images/port_thumb_4.jpg) no-repeat center;
+  background-size: cover;
+}
+/* =============================================
+service2 par end
+=================================================*/
+
+/* ============================================
+process part start
+===============================================*/
+#process {
+  margin: 80px 0;
+  text-align: center;
+  position: relative;
+}
+#process .head {
+  position: relative;
+}
+#process h1 {
+  color: rgba(132, 114, 179, 0.57);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#process h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1c0e3e;
+  position: absolute;
+  top: 60px;
+  left: 400px;
+}
+#process .work-line {
+  position: absolute;
+  top: 108px;
+  left: 69px;
+  z-index: -1;
+}
+#process .round {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+#process h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e0a2d;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+#process .inner-round {
+  width: 80px;
+  height: 80px;
+  background: #5e23ef;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#process .inner-round i {
+  font-size: 30px;
+}
+#process .round1 {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  transition: 0.4s;
+}
+#process .inner-round1 {
+  width: 20px;
+  height: 20px;
+  background: #1a2cd7;
+  border-radius: 50%;
+}
+#process h2 {
+  margin-top: 50px;
+  font-size: 50px;
+  color: #000;
+  transition: 0.4s;
+}
+#process .line {
+  position: relative;
+  top: 230px;
+}
+#process .line1 {
+  width: 0;
+  height: 4px;
+  background: #0f2eddfa;
+  transition: 0.4s;
+  position: absolute;
+  z-index: -1;
+}
+#process .line .line2 {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #1b34a579;
+  z-index: -2;
+}
+/* ============================================
+process part end
+===============================================*/
+/* ============================================
+testimonial part start
+===============================================*/
+#testi {
+  margin: 60px 0;
+  height: 900px;
+  position: relative;
+}
+#testi .test-left {
+  background: linear-gradient(to bottom, #1a2cd7 0%, #6a11cb 90%);
+  padding: 140px 0;
+  height: 900px;
+  text-align: center;
+}
+#testi .test-left .head {
+  position: relative;
+}
+#testi .test-left .head h1 {
+  color: #fff;
+  opacity: 0.2;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#testi .test-left .head h3 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+#testi .shape {
+  width: 470px;
+  height: 250px;
+  background: #fff;
+  position: absolute;
+  top: 355px;
+  left: 100px;
+  border-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+#testi .test-slider .box {
+  width: 470px;
+  height: 250px !important;
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  top: 6px;
+  left: 88px;
+  transition: 0.8s;
+  margin: 30px 0;
+  padding: 20px 15px;
+  border-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+#testi .test-slider .box .coma {
+  position: absolute;
+  top: 17px;
+  right: 40px;
+  font-size: 80px;
+  color: #f5f5f5;
+}
+#testi .test-slider .slick-active .box {
+  top: -26px;
+  left: 55px;
+}
+#testi .test-slider .box .b-flex {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+#testi .test-slider .box .b-img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+#testi .test-slider .box .b-img img {
+  width: 100%;
+  object-fit: cover;
+}
+#testi .test-slider .box .b-text {
+  width: 130px;
+  text-align: left;
+}
+#testi .test-slider .box .b-text h5 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a115e;
+  margin: 0;
+}
+#testi .test-slider .box .b-text h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a115e;
+  margin: 0;
+}
+#testi .test-slider .box .b-text h6 span {
+  color: #5f24ef;
+  margin: 0;
+}
+#testi .test-slider .box .b-text i {
+  color: #f0d438;
+}
+#testi .test-slider .box p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #1c0e3e;
+  text-align: left;
+  margin-top: 20px;
+}
+#testi .test-slider2 {
+  margin-top: 30px;
+}
+#testi .test-slider2 .item2 {
+  width: 90px !important;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 19px;
+  position: relative;
+  transition: 0.4s;
+  margin-top: 37px;
+}
+#testi .test-slider2 .item2 img {
+  width: 100%;
+  object-fit: cover;
+}
+#testi .test-slider2 .slick-center {
+  border: 3px solid #fff;
+  transform: scale(1.1);
+  top: -30px;
+}
+#testi .test-slider2 .item2 .kutu {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.445);
+  opacity: 0;
+}
+#testi .test-slider2 .slick-center .kutu {
+  opacity: 1;
+}
+#testi .test-slider2 .hasan {
+  position: absolute;
+  padding: 20px 40px;
+  top: 150px;
+  left: 350px;
+  font-size: 30px;
+  background: #904dd8;
+  color: #fff;
+  border-radius: 10px;
+}
+#testi .test-slider2 .tonu {
+  position: absolute;
+  padding: 20px 40px;
+  top: 150px;
+  left: 150px;
+  font-size: 30px;
+  background: #904dd8;
+  color: #fff;
+  border-radius: 10px;
+  z-index: 45;
+}
+#testi .test-right {
+  background: #08baf6;
+  padding: 100px 50px;
+  height: 900px;
+}
+#testi .test-right .head {
+  position: relative;
+  text-align: center;
+  margin-top: 32px;
+}
+#testi .test-right .head h1 {
+  color: #fff;
+  opacity: 0.2;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+}
+#testi .test-right .head h3 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+#testi .test-right .head p {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 40px;
+  margin-bottom: 40px;
+}
+#testi .test-right h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+/* ============================================
+testimoinal part end
+===============================================*/
+
+/* ============================================
+ News part start
+===============================================*/
+#news {
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background: #edf4f9;
+}
+#news .head {
+  position: relative;
+}
+.news-box {
+  display: flex;
+  justify-content: center;
+}
+#news .head h1 {
+  color: #dde2ea;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#news .head h3 {
+  color: #0e0a2d;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  top: 50px;
+  left: 390px;
+}
+#news input {
+  width: 570px;
+  padding: 8px 20px;
+  height: 50px;
+}
+#news input::placeholder {
+  color: #0e0a2d;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+}
+#news a {
+  display: inline-block;
+  padding: 12px 14px;
+  background: linear-gradient(to right, #6122ef, #08bbf6);
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 50px;
+  transition: 0.8s;
+}
+#news a:hover {
+  background: #0e0a2d;
+}
+/* ============================================
+ News part end
+===============================================*/
+.up-button i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #0e0a2d;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 25px;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 9999;
+  display: none;
+  transition: 0.4s;
+}
+/* ============================================
+  Footer part start
+===============================================*/
+#footer {
+  height: 580px;
+  display: block;
+  background: #edf4f9;
+  position: relative;
+  padding: 250px 0;
+  z-index: 99;
+  overflow: hidden;
+}
+#footer::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 150px 140px 0 0;
+  background: linear-gradient(to top, #6a11cb 50%, #1a2cd7);
+  z-index: 1;
+  top: 120px;
+  left: 0;
+  transform: rotate(-2deg);
+}
+#footer::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 51px;
+  left: 33px;
+  border-radius: 150px 140px 0 0;
+  background: #848ee7;
+  z-index: -1;
+  transform: rotate(-3deg);
+}
+.main2 {
+  position: relative;
+  z-index: 999;
+}
+#footer .main2 .footer-left p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 25px 0;
+  padding-right: 60px;
+}
+#footer .main2 .footer-left .icons i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #5618ce;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+#footer .main2 .footer-left .icons i:hover {
+  background: #100822;
+}
+#footer .main2 .footer-mid .footer-item {
+  text-align: left;
+}
+#footer .main2 .footer-mid .footer-item h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#footer .main2 .footer-mid .footer-item ul {
+  padding: 0;
+}
+#footer .main2 .footer-mid .footer-item ul li a {
+  display: inline-block;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+#footer .main2 .footer-mid .footer-item ul li a:hover {
+  margin-left: 6px;
+}
+#footer .main2 .copy {
+  text-align: center;
+  background: #350865;
+  padding: 20px 0;
+  border-radius: 60px 60px 0 0;
+  margin-top: 60px;
+}
+#footer .main2 .copy p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+/* ============================================
+ Footer part end
+===============================================*/

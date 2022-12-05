@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.rprogessbar.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body onload="myfunction()">
+  <div id="loader-wrapper">
+    <div id="loader">
+<img src="images/preloader.gif" alt="preloader">
+    </div>
+  </div>
+  <!-- ==============================
+    nav part start
+    =====================================-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <img class="kalo" src="images/logo_dark.png" alt="images">
+      <img class="sada" src="images/logo.png" alt="images">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars bar"></i>
+      </button>
+      <div class="collapse navbar-collapse menu-bar" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service2">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#process">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testi"> Review </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ==============================
+   nav part end
+    =====================================-->
+  <!-- ==================================
+    banner part start
+    =========================================-->
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h5>hello!</h5>
+          <h2>I Am <span>Robert</span></h2>
+          <div class="intro animate-rotate-1">
+            <h3 class="ah-headline">
+              <span>
+                Proffesional</span>
+              <span class="ah-words-wrapper">
+                <b class="is-visible">JavaScript</b>
+                <b>Python</b>
+                <b>Swift</b>
+                <b>Dj Ango</b>
+                <b>Web designer </b>
+              </span>
+            </h3>
+          </div>
+          <h4>Base On United State Of America
+          </h4>
+
+          <a class="cv" href="#">Download Cv<i class="fa-solid fa-download"></i></a>
+          <a class="hire" href="#">hire me</a>
+        </div>
+        <div class="col-lg-6">
+          <img class="shape" src="images/home_1_bg_shape.png" alt="images">
+          <img class="man" src="images/Layer-21.png" alt="images">
+          <div class="shape2">
+            <div class="home1-bg-shape">
+              <svg xmlns="http://www.w3.org/2000/svg" width="459" height="651.062" viewBox="0 0 459 651.062">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #2091f4;
+                      fill-rule: evenodd;
+                      opacity: 0.1;
+                    }
+                  </style>
+                </defs>
+                <path id="bg.svg" class="cls-1"
+                  d="M-31.791,187.636C-199.392,254.59-250.437,446.2-193.855,616.5c59.583,171.744,251.964,250.121,427.56,179.763C318.784,764.555,395.9,691.522,432.9,616.131c37.683-76.227,38.24-157.748-22.989-216.962-85.392-78.312-135.9,56.648-191.905,10.8-37.473-30.679,83.008-143.725-65.577-218.79C84.694,156.96,3.472,173.57-31.791,187.636Z"
+                  transform="translate(0 -170.969)"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================================
+    banner part end
+    =========================================-->
+  <!-- =======================================
+  counter part start
+  ===============================================-->
+  <section id="counter">
+    <div class="container">
+      <div class="counter-main">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-md-3">
+            <div class="counter-item">
+              <i class="fa-solid fa-face-grin-hearts"></i>
+              <h2 class="counter">552</h2>
+              <h4>Satisfied Clients</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-3">
+            <div class="counter-item">
+              <i class="fa-solid fa-briefcase"></i>
+              <h2 class="counter">952</h2>
+              <h4>Completed Projects</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-3">
+            <div class="counter-item">
+              <i class="far fa-smile"></i>
+              <h2 class="counter">5</h2>
+              <h4>Years Experience</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-3">
+            <div class="counter-item">
+              <i class="fa-solid fa-trophy"></i>
+              <h2 class="counter">221</h2>
+              <h4>Awards Won</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- =======================================
+  counter part end
+  ===============================================-->
+
+  <!-- ================================================
+  about part start
+  =======================================================-->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <img src="images/about_img_home1.png" alt="about_img_home1.png">
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="text">
+            <h1>About Me</h1>
+            <h3>Something About Me</h3>
+            <h4>Hello, This is Robert a Proffesional Web Developer. I have been working more than 5 years as a Web
+              Developer. I love to code for me and clients. I always deliver the projects before the deadline.I am
+              expert
+              in Front End Development, I do quality code in tricky wa</h4>
+          </div>
+          <div class="icon">
+
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-vimeo-v"></i>
+            <i class="far fa-paper-plane"></i>
+          </div>
+          <div data-relative-input="true" id="scene">
+            <div data-depth="0.2" class="img1"><img src="images/shape_line.png"></div>
+            <div data-depth="0.5" class="img3"><img src="images/shape_line_alt.png"></div>
+            <div data-depth="0.6" class="trangle1"></div>
+            <div data-depth="0.7" class="trangle2"></div>
+            <div data-depth="0.6" class="trangle6"></div>
+            <div data-depth="0.3" class="trangle7"></div>
+            <div data-depth="0.2" class="trangle8"></div>
+            <div data-depth="0.8" class="trangle9"></div>
+            <div data-depth="0.1" class="cilcle3"></div>
+            <div data-depth="0.8" class="cilcle4"></div>
+            <div data-depth="0.9" class="cilcle5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================
+  about part end
+  =======================================================-->
+
+  <!-- ======================================================
+services part start
+===========================================================-->
+  <section id="service">
+    <img class="pattern" src="images/pattern.png" alt="">
+    <div class="container">
+      <div class="ser-head">
+        <h1>service</h1>
+        <h3>Something About Me</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="ser-item">
+            <i class="fas fa-layer-group"></i>
+            <h4>Layout Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ab officiis, commodi excepturi ullam
+              praesentium ratione .</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="ser-item">
+            <i class="far fa-calendar-plus"></i>
+            <h4>Ui Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ab officiis, commodi excepturi ullam
+              praesentium ratione .</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="ser-item">
+            <i class="fas fa-clone"></i>
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ab officiis, commodi excepturi ullam
+              praesentium ratione .</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+services part end
+===========================================================-->
+
+  <!-- ======================================================
+service2 part start
+=============================================================-->
+  <section id="service2">
+    <div class="overlay">
+      <div class="container">
+        <div class="port-head">
+          <h1>Portfolio</h1>
+          <h3>These Are Done By Me</h3>
+        </div>
+        <div class="port-flex">
+          <div class="port-main">
+            <div class="port-big">
+              <img class="thumb" src="images/port_thumb.jpg" alt="port_thumb.jpg">
+              <div class="text">
+                <h4>Architecture Design</h4>
+                <p>Lorem ipsum dolor sit amkadipisicing eliti sed eiusmod aliquam quaeratamrsonar banglay.</p>
+              </div>
+            </div>
+            <div class="port-big thumb2">
+              <img class="thumb" src="images/port_thumb_2.jpg" alt="port_thumb.jpg">
+              <div class="text">
+                <h4>Robot Design</h4>
+                <p>Lorem ipsum dolor sit amkadipisicing eliti sed eiusmod aliquam quaeratamrsonar banglay.</p>
+              </div>
+            </div>
+            <div class="port-big thumb3">
+              <img class="thumb" src="images/port_thumb_4.jpg" alt="port_thumb.jpg">
+              <div class="text">
+                <h4>Interior Design</h4>
+                <p>Lorem ipsum dolor sit amkadipisicing eliti sed eiusmod aliquam quaeratamrsonar banglay.</p>
+              </div>
+            </div>
+            <div class="port-big">
+              <img class="thumb" src="images/port_thumb_3.jpg" alt="port_thumb.jpg">
+              <div class="text">
+                <h4>Electronic Creativity</h4>
+                <p>Lorem ipsum dolor sit amkadipisicing eliti sed eiusmod aliquam quaeratamrsonar banglay.</p>
+              </div>
+            </div>
+          </div>
+          <div class="little">
+            <i class="fa-solid fa-calendar-days"></i>
+            <h5>14 Feb 2022</h5>
+            <a href="#" class="tag">Creative</a>,
+            <a href="#" class="tag">Corporate</a>,
+            <a href="#" class="tag">Business</a>,
+            <a href="#" class="tag">Minimal</a>
+            <a class="detail" href="#">See Details <i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+        <div class="service-main">
+          <div class="service-item1 service-item">
+            <div class="ser-overlay"><a href="#">Python</a></div>
+          </div>
+          <div class="service-item2 service-item">
+            <div class="ser-overlay">
+              <a href="#">web designer</a>
+            </div>
+          </div>
+          <div class="service-item3 service-item">
+            <div class="ser-overlay"> <a href="#">web developer</a></div>
+          </div>
+          <div class="service-item4 service-item">
+            <div class="ser-overlay"> <a href="#">JavaScript</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================================================
+service2 part end
+=============================================================-->
+
+  <!-- ==========================================================
+round part start
+===========================================================-->
+  <section id="process">
+    <div class="container">
+      <img class="work-line" src="images/work-line.png" alt="work-line">
+      <div class="head">
+        <h1>Work Process</h1>
+        <h3>That's How I Done A Job</h3>
+      </div>
+      <div class="line">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-3 col-md-3">
+          <div class="item1">
+            <div class="round">
+              <div class="inner-round">
+                <i class="fas fa-chart-line"></i>
+              </div>
+            </div>
+            <h4>understand brief</h4>
+            <div class="round1">
+              <div class="inner-round1"></div>
+            </div>
+            <h2>1</h2>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-md-3">
+          <div class="item2">
+            <div class="round">
+              <div class="inner-round">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h4>research</h4>
+            <div class="round1">
+              <div class="inner-round1">
+
+              </div>
+            </div>
+            <h2>2</h2>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-md-3">
+          <div class="item3">
+            <div class="round">
+              <div class="inner-round"><i class="fas fa-notes-medical"></i></div>
+            </div>
+            <h4>design plan</h4>
+            <div class="round1">
+              <div class="inner-round1"></div>
+            </div>
+            <h2>3</h2>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-md-3">
+          <div class="item4">
+            <div class="round">
+              <div class="inner-round"><i class="fa-solid fa-building"></i></div>
+            </div>
+            <h4>build design</h4>
+            <div class="round1">
+              <div class="inner-round1"></div>
+            </div>
+            <h2>4</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==========================================================
+round part end
+===========================================================-->
+
+  <!-- ==========================================================
+   testimonoal part start
+===========================================================-->
+  <scetion id="testi">
+    <div class="row">
+      <div class="col-lg-6 p-0 col-md-6">
+        <div class="test-left">
+          <div class="container">
+            <div class="head">
+              <h1>Testimonial</h1>
+              <h3>Client's Says About Me</h3>
+            </div>
+            <div class="shape"></div>
+            <div class="test-slider">
+              <div class="test-item">
+                <div class="box shadow">
+                  <i class="fas fa-quote-left coma"></i>
+                  <div class="b-flex">
+                    <div class="b-img">
+                      <img src="images/client_1.png" alt="client_1.png">
+                    </div>
+                    <div class="b-text">
+                      <h5>Justin Dacosta</h5>
+                      <h6>Ceo at <span>Doggal</span> </h6>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p>Dorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magnagte aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+                </div>
+              </div>
+
+              <div class="test-item">
+                <div class="box shadow">
+                  <i class="fas fa-quote-left coma"></i>
+                  <div class="b-flex">
+                    <div class="b-img">
+                      <img src="images/client_2.png" alt="client_1.png">
+                    </div>
+                    <div class="b-text">
+                      <h5>Justin Dacosta</h5>
+                      <h6>Ceo at <span>Doggal</span> </h6>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p>Dorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magnagte aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+                </div>
+              </div>
+              <div class="test-item">
+                <div class="box shadow">
+                  <i class="fas fa-quote-left coma"></i>
+                  <div class="b-flex">
+                    <div class="b-img">
+                      <img src="images/client_3.png" alt="client_1.png">
+                    </div>
+                    <div class="b-text">
+                      <h5>Justin Dacosta</h5>
+                      <h6>Ceo at <span>Doggal</span> </h6>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p>Dorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magnagte aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+                </div>
+              </div>
+              <div class="test-item">
+                <div class="box shadow">
+                  <i class="fas fa-quote-left coma"></i>
+                  <div class="b-flex">
+                    <div class="b-img">
+                      <img src="images/client_4.png" alt="client_1.png">
+                    </div>
+                    <div class="b-text">
+                      <h5>Justin Dacosta</h5>
+                      <h6>Ceo at <span>Doggal</span> </h6>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p>Dorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magnagte aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+                </div>
+              </div>
+
+              <div class="test-item">
+                <div class="box shadow">
+                  <i class="fas fa-quote-left coma"></i>
+                  <div class="b-flex">
+                    <div class="b-img">
+                      <img src="images/client_5.png" alt="client_1.png">
+                    </div>
+                    <div class="b-text">
+                      <h5>Justin Dacosta</h5>
+                      <h6>Ceo at <span>Doggal</span> </h6>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p>Dorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magnagte aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+                </div>
+              </div>
+
+              <div class="test-item">
+                <div class="box shadow">
+                  <i class="fas fa-quote-left coma"></i>
+                  <div class="b-flex">
+                    <div class="b-img">
+                      <img src="images/client_6.png" alt="client_1.png">
+                    </div>
+                    <div class="b-text">
+                      <h5>Justin Dacosta</h5>
+                      <h6>Ceo at <span>Doggal</span> </h6>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p>Dorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magnagte aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="test-slider2">
+              <div class="item2">
+                <div class="kutu">
+                </div> <img src="images/client_1.png" alt="client_1.png">
+              </div>
+              <div class="item2">
+                <div class="kutu"></div>
+                <img src="images/client_2.png" alt="client_1.png">
+              </div>
+              <div class="item2">
+                <div class="kutu"></div>
+                <img src="images/client_3.png" alt="client_1.png">
+              </div>
+              <div class="item2">
+                <div class="kutu"></div>
+                <img src="images/client_4.png" alt="client_1.png">
+              </div>
+              <div class="item2">
+                <div class="kutu"></div>
+                <img src="images/client_5.png" alt="client_1.png">
+              </div>
+              <div class="item2">
+                <div class="kutu"></div>
+                <img src="images/client_6.png" alt="client_1.png">
+              </div>
+              <div class="item2">
+                <div class="kutu"></div>
+                <img src="images/client_5.png" alt="client_1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 p-0 col-md-6">
+        <div class="test-right">
+          <div class="head">
+            <h1>Skills</h1>
+            <h3>Take A Look My Skill Area</h3>
+            <p>This Parcentage are Base on My Personal Experience, And thease are accurate and I think you people’s are
+              satisfied a lot of</p>
+          </div>
+
+          <div class="single-progressbar">
+            <h4 class="title">Adobe Photoshop</h4>
+            <div class="html"></div>
+          </div>
+          <div class="single-progressbar">
+            <h4 class="title">Adobe Lightroom</h4>
+            <div class="html tt1"></div>
+          </div>
+          <div class="single-progressbar">
+            <h4 class="title">Adobe Illustrator</h4>
+            <div class="html tt2"></div>
+          </div>
+          <div class="single-progressbar">
+            <h4 class="title">Adobe XD</h4>
+            <div class="html tt3"></div>
+          </div>
+          <div class="single-progressbar">
+            <h4 class="title">Adobe Design</h4>
+            <div class="html"></div>
+          </div>
+          <div class="single-progressbar">
+            <h4 class="title">Figma</h4>
+            <div class="html"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </scetion>
+
+  <!-- ==========================================================
+    testimonoal part  end
+===========================================================-->
+
+  <!-- ==========================================================
+    News part start
+===========================================================-->
+  <scetion id="news">
+    <div class="container">
+      <div class="head">
+        <h1>Newsletter</h1>
+        <h3>Stay Updated With Us</h3>
+      </div>
+     <div class="news-box">
+      <input type="email" placeholder="Enter Your Mail">
+      <a href="#">Subscribe <i class="fas fa-chevron-right"></i></a>
+     </div>
+    </div>
+  </scetion>
+  <!-- ==========================================================
+   News part  end
+===========================================================-->
+  <div class="up-button">
+    <i class="fas fa-angle-up app"></i>
+  </div>
+  <!-- ==========================================================
+   Footer part start
+===========================================================-->
+  <scetion id="footer">
+    <div class="container">
+      <div class="main2">
+        <div class="row">
+          <div class="col-lg-5 col-md-8">
+            <div class="footer-left">
+              <img src="images/logo.png" alt="logo.png">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis adipisci qui excepturi aut.
+                Voluptas, eveniet.</p>
+              <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-vimeo-v"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="footer-mid">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                  <div class="footer-item">
+                    <h4>Services</h4>
+                    <ul>
+                      <li><a href="#">Graphics Design</a></li>
+                      <li><a href="#">UI Design</a></li>
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">Web Development</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                  <div class="footer-item">
+                    <h4>Pages</h4>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                  <div class="footer-item">
+                    <h4>Quick Links</h4>
+                    <ul>
+                      <li><a href="#">Blog Page</a></li>
+                      <li><a href="#">Blog Single</a></li>
+                      <li><a href="#">Service Details</a></li>
+                      <li><a href="#">Project Details</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                  <div class="footer-item">
+                    <h4>Support</h4>
+                    <ul>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Complain</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy">
+          <p>© 2021 webglib. All rights reserved. </p>
+        </div>
+      </div>
+
+    </div>
+  </scetion>
+
+  <!-- ==========================================================
+    Footer part  end
+===========================================================-->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script>
+    let preloader = document.querySelector("#loader-wrapper")
+    function myfunction() {
+      preloader.style.display ='none'
+}
+  </script>
+  <script src="js/jquery.animatedheadline.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jQuery.rProgressbar.min.js"></script>
+  <script src="js/active.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
